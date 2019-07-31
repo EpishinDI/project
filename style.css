@@ -1,0 +1,65 @@
+a{  display: flex;
+	justify-content: center;
+	color: #ecfeff;
+	width: 24px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 13px
+}
+
+div {
+	background-color: #fe0000;
+	width: 194px;
+}
+div ul :nth-child(5) a{
+	color: #000000;
+
+} 
+div ul li a {
+
+	background-color: #008109;
+}
+
+div ul li ul {
+	background-color: #ffff00;
+}
+div ul li ul :nth-child(3) a {
+	color: #ffff00;
+	
+}
+div ul li ul li a{
+
+	background-color: #810083;
+}
+div ul li ul li ul{
+	background-color: #fe0000;
+}
+div ul li ul li ul li a {
+
+	background-color: #000204;
+}
+
+div ul li ul li ul li ol{
+	background-color: #ffff00;
+}
+div ul li ul li ul li ol :nth-child(3) a{
+	color: #dd9235;
+
+}
+
+div ul li ul li ul li ol :nth-child(even){
+	background-color: #0001fc;
+}
+
+div ul li ul li ul li ol li {
+	background-color: #addae0;
+	width: 24px;
+	
+}
+div ul li ul li ul li ol li a {
+	background: transparent;
+}
+div ul li ul li ul li ol li a {
+	color: #dd9235;
+}
+/*#0001fc;  color: #addae0;*/
